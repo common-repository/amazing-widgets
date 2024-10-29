@@ -1,0 +1,9 @@
+/* Admin page -> widgets.php style */
+.aw_gray {background:#f5f5f5;padding:15px;border:1px solid #ddd;}
+.aw_settings_container {overflow:hidden;margin-bottom:15px}
+.aw_settings_container select {border:1px solid #efefef;display:block;width:100% !important;}
+.aw_settings_container p:last-child {margin-bottom:0}
+.aw_settings_container p:first-child {margin-top:0}
+.aw_halfsize {margin-left:48%}
+.aw_left {float:left}
+.aw_right {float:right}

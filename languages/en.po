@@ -1,0 +1,608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Gabfire
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Amazing Widgets 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-28 02:01+0200\n"
+"PO-Revision-Date: 2015-10-28 02:01+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: amazing-widgets.php:89 amazing-widgets.php:90
+msgid "Amazing Widgets"
+msgstr ""
+
+#: inc/class-content-slider-widget.php:14
+msgid "AW Content Slider"
+msgstr ""
+
+#: inc/class-content-slider-widget.php:15
+msgid "AW Content Slider Widget."
+msgstr ""
+
+#: inc/class-content-slider-widget.php:50 inc/class-instagram-widget.php:31
+#: inc/class-twitter-widget.php:32
+msgid "Title"
+msgstr ""
+
+#: inc/class-content-slider-widget.php:56
+msgid "Number of Slides"
+msgstr ""
+
+#: inc/class-content-slider-widget.php:68
+#, php-format
+msgid ""
+"You need to have <a href=\"%1$s\" target=\"_blank\">Gabfire Media Module</a> "
+"installed to be able use \"Slide Only Videos\" option."
+msgstr ""
+
+#: inc/class-content-slider-widget.php:72
+msgid "Slide Categories or Videos?"
+msgstr ""
+
+#: inc/class-content-slider-widget.php:74
+msgid "Slide only Videos"
+msgstr ""
+
+#: inc/class-content-slider-widget.php:75
+#: inc/class-timeline-posts-widget.php:57
+msgid "All Categories"
+msgstr ""
+
+#: inc/class-content-slider-widget.php:163
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: inc/class-instagram-widget.php:14
+msgid "AW Instagram Widget"
+msgstr ""
+
+#: inc/class-instagram-widget.php:15
+msgid "Instagram Photos."
+msgstr ""
+
+#: inc/class-instagram-widget.php:22 inc/class-social-widget.php:220
+#: lib/settings/aw-settings.php:49 lib/settings/aw-settings.php:147
+msgid "Instagram"
+msgstr ""
+
+#: inc/class-instagram-widget.php:23
+msgid "username"
+msgstr ""
+
+#: inc/class-instagram-widget.php:38
+msgid "Display photos by"
+msgstr ""
+
+#: inc/class-instagram-widget.php:40 inc/class-twitter-widget.php:44
+msgid "Username"
+msgstr ""
+
+#: inc/class-instagram-widget.php:41 inc/class-twitter-widget.php:45
+msgid "Hashtag"
+msgstr ""
+
+#: inc/class-instagram-widget.php:46 inc/class-twitter-widget.php:38
+msgid "Configure API Keys on Settings -> Amazing Widgets page"
+msgstr ""
+
+#: inc/class-instagram-widget.php:50
+msgid "Hashtag - If hashtag selected above"
+msgstr ""
+
+#: inc/class-instagram-widget.php:55
+msgid "Number of photos"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:14
+msgid "AW Post Tabs Widget"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:15
+msgid "Display recent, most commented and recently commented entries."
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:35 inc/class-social-widget.php:46
+#: inc/class-timeline-posts-widget.php:30
+msgid "Title:"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:41
+msgid "Select a color scheme"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:43
+msgid "Light Colors"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:44
+msgid "Dark Colors"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:49
+msgid "Number of Posts?"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:60
+msgid "Disable Recent Posts tab"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:65
+msgid "Disable Popular Posts tab"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:70
+msgid "Disable Recent Comments tab"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:75
+msgid "Disable post comment count"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:80
+msgid "Disable post date"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:146
+msgid "Recent"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:151
+msgid "Popular"
+msgstr ""
+
+#: inc/class-post-tabs-widget.php:156
+msgid "Comments"
+msgstr ""
+
+#: inc/class-social-widget.php:14
+msgid "AW Social Widget"
+msgstr ""
+
+#: inc/class-social-widget.php:15
+msgid ""
+" Displays a list of social media website icons and a link to your profile."
+msgstr ""
+
+#: inc/class-social-widget.php:52
+msgid "When to show Brand Colors (hover or active icons)?"
+msgstr ""
+
+#: inc/class-social-widget.php:54
+msgid "Show brand colors on active icons"
+msgstr ""
+
+#: inc/class-social-widget.php:55
+msgid "Show brand colors on hovered icons"
+msgstr ""
+
+#: inc/class-social-widget.php:60
+msgid "Configure Social Sites URLs on Settings -> Amazing Widgets page"
+msgstr ""
+
+#: inc/class-social-widget.php:67
+msgid "Enable Facebook Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:72
+msgid "Enable Twitter Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:77
+msgid "Enable Google+ Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:82
+msgid "Enable LinkedIn Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:87
+msgid "Enable Instagram Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:92
+msgid "Enable Pinterest Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:97
+msgid "Enable Vimeo Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:102
+msgid "Enable Youtube Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:107
+msgid "Enable Flickr Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:114
+msgid "Enable VK Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:119
+msgid "Enable Odnoklassniki Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:124
+msgid "Enable SoundCloud Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:129
+msgid "Enable Dribbble Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:134
+msgid "Enable Github Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:139
+msgid "Enable Tumblr Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:144
+msgid "Enable Behance Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:149
+msgid "Enable DeviantArt Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:154
+msgid "Enable FourSquare Icon"
+msgstr ""
+
+#: inc/class-social-widget.php:208
+msgid "Facebook"
+msgstr ""
+
+#: inc/class-social-widget.php:212 lib/settings/aw-settings.php:43
+#: lib/settings/aw-settings.php:126
+msgid "Twitter"
+msgstr ""
+
+#: inc/class-social-widget.php:216
+msgid "Google+"
+msgstr ""
+
+#: inc/class-social-widget.php:224 lib/settings/aw-settings.php:154
+msgid "Pinterest"
+msgstr ""
+
+#: inc/class-social-widget.php:228 lib/settings/aw-settings.php:161
+msgid "Vimeo"
+msgstr ""
+
+#: inc/class-social-widget.php:232 lib/settings/aw-settings.php:168
+msgid "Youtube"
+msgstr ""
+
+#: inc/class-social-widget.php:236 lib/settings/aw-settings.php:175
+msgid "Flickr"
+msgstr ""
+
+#: inc/class-social-widget.php:240 lib/settings/aw-settings.php:182
+msgid "VKontakte"
+msgstr ""
+
+#: inc/class-social-widget.php:244
+msgid "Odnoklassniki"
+msgstr ""
+
+#: inc/class-social-widget.php:248
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/class-social-widget.php:252 lib/settings/aw-settings.php:203
+msgid "Dribbble"
+msgstr ""
+
+#: inc/class-social-widget.php:256 lib/settings/aw-settings.php:210
+msgid "Github"
+msgstr ""
+
+#: inc/class-social-widget.php:260 lib/settings/aw-settings.php:217
+msgid "Tumblr"
+msgstr ""
+
+#: inc/class-social-widget.php:264 lib/settings/aw-settings.php:224
+msgid "Behance"
+msgstr ""
+
+#: inc/class-social-widget.php:268
+msgid "DeviantArt"
+msgstr ""
+
+#: inc/class-social-widget.php:272
+msgid "FourSquare"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:14
+msgid "AW Timeline Posts"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:15
+msgid "Display a list of Recent or Random posts in a timeline format."
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:37
+#: inc/class-timeline-posts-widget.php:55
+msgid "Show Random or Recent Posts?"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:39
+msgid "Random Posts"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:40
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:45
+msgid "Number of entries to display"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:84
+#, php-format
+msgid "By %1$s on %2$s"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:137
+msgid "No Comment"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:137
+msgid "1 Comment"
+msgstr ""
+
+#: inc/class-timeline-posts-widget.php:137
+msgid "% Comments"
+msgstr ""
+
+#: inc/class-twitter-widget.php:14
+msgid "AW Twitter Widget"
+msgstr ""
+
+#: inc/class-twitter-widget.php:15
+msgid "Display most recent tweets of a hasthtag or username."
+msgstr ""
+
+#: inc/class-twitter-widget.php:42
+msgid "Tweets based on:"
+msgstr ""
+
+#: inc/class-twitter-widget.php:50
+msgid "Twitter profile photo:"
+msgstr ""
+
+#: inc/class-twitter-widget.php:52
+msgid "Display"
+msgstr ""
+
+#: inc/class-twitter-widget.php:53
+msgid "Hide"
+msgstr ""
+
+#: inc/class-twitter-widget.php:58
+msgid "Number of Tweets?"
+msgstr ""
+
+#: inc/class-twitter-widget.php:68
+msgid "Enter Username or Hashtag (without @ or #)"
+msgstr ""
+
+#: inc/class-twitter-widget.php:112
+msgid "Twitter Authentication data is incomplete"
+msgstr ""
+
+#: inc/class-twitter-widget.php:140 inc/class-twitter-widget.php:203
+msgid "Error retrieving tweets"
+msgstr ""
+
+#: inc/class-twitter-widget.php:150
+msgid "No public tweets with"
+msgstr ""
+
+#: inc/class-twitter-widget.php:214
+msgid "No public tweets"
+msgstr ""
+
+#: lib/settings/aw-settings.php:31
+msgid "General"
+msgstr ""
+
+#: lib/settings/aw-settings.php:37
+msgid "Social Sites"
+msgstr ""
+
+#: lib/settings/aw-settings.php:56
+msgid "Enable & Disable Widgets"
+msgstr ""
+
+#: lib/settings/aw-settings.php:61 lib/settings/aw-settings.php:62
+msgid "Disable Social Widget"
+msgstr ""
+
+#: lib/settings/aw-settings.php:68 lib/settings/aw-settings.php:69
+msgid "Disable Twitter Widget"
+msgstr ""
+
+#: lib/settings/aw-settings.php:75 lib/settings/aw-settings.php:76
+msgid "Disable Post Tabs Widget"
+msgstr ""
+
+#: lib/settings/aw-settings.php:82 lib/settings/aw-settings.php:83
+msgid "Disable Content Slider Widget"
+msgstr ""
+
+#: lib/settings/aw-settings.php:89 lib/settings/aw-settings.php:90
+msgid "Disable Timeline Posts Widget"
+msgstr ""
+
+#: lib/settings/aw-settings.php:96 lib/settings/aw-settings.php:97
+msgid "Disable Instagram Widget"
+msgstr ""
+
+#: lib/settings/aw-settings.php:103
+msgid "Disable Font-Awesome"
+msgstr ""
+
+#: lib/settings/aw-settings.php:104
+msgid "Its built-in my theme. Do not load it for the second time"
+msgstr ""
+
+#: lib/settings/aw-settings.php:114
+msgid "Social Site Links"
+msgstr ""
+
+#: lib/settings/aw-settings.php:119
+msgid "Facebok"
+msgstr ""
+
+#: lib/settings/aw-settings.php:120 lib/settings/aw-settings.php:127
+msgid "URL to Facebook Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:133
+msgid "Google Plus"
+msgstr ""
+
+#: lib/settings/aw-settings.php:134
+msgid "URL to Google Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:140
+msgid "LinkedIn"
+msgstr ""
+
+#: lib/settings/aw-settings.php:141
+msgid "URL to LinkedIn Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:148
+msgid "URL to Instagram Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:155
+msgid "URL to Pinterest Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:162
+msgid "URL to Vimeo Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:169
+msgid "URL to Youtube Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:176
+msgid "URL to Flickr Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:183 lib/settings/aw-settings.php:239
+msgid "URL to VKontakte Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:189
+msgid "Odnoklassniki "
+msgstr ""
+
+#: lib/settings/aw-settings.php:190
+msgid "URL to Odnoklassniki Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:196
+msgid "Soundcloud"
+msgstr ""
+
+#: lib/settings/aw-settings.php:197
+msgid "URL to Soundcloud Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:204
+msgid "URL to Dribbble Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:211
+msgid "URL to Github Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:218
+msgid "URL to Tumblr Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:225
+msgid "URL to Behance Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:231
+msgid "Deviantart"
+msgstr ""
+
+#: lib/settings/aw-settings.php:232
+msgid "URL to Deviantart Account."
+msgstr ""
+
+#: lib/settings/aw-settings.php:238
+msgid "Foursquare"
+msgstr ""
+
+#: lib/settings/aw-settings.php:249
+msgid "Twitter Authentication"
+msgstr ""
+
+#: lib/settings/aw-settings.php:254 lib/settings/aw-settings.php:255
+msgid "Consumer Key"
+msgstr ""
+
+#: lib/settings/aw-settings.php:261 lib/settings/aw-settings.php:262
+msgid "Consumer Secret"
+msgstr ""
+
+#: lib/settings/aw-settings.php:268 lib/settings/aw-settings.php:269
+#: lib/settings/aw-settings.php:305
+msgid "Token Key"
+msgstr ""
+
+#: lib/settings/aw-settings.php:275 lib/settings/aw-settings.php:276
+msgid "Token Secret"
+msgstr ""
+
+#: lib/settings/aw-settings.php:286
+msgid "Instagram Authentication"
+msgstr ""
+
+#: lib/settings/aw-settings.php:291
+msgid "User ID"
+msgstr ""
+
+#: lib/settings/aw-settings.php:292
+msgid "Check your User ID at http://jelled.com/instagram/lookup-user-id"
+msgstr ""
+
+#: lib/settings/aw-settings.php:298 lib/settings/aw-settings.php:299
+msgid "Client ID"
+msgstr ""
+
+#: lib/settings/aw-settings.php:306
+msgid "Check your Access Token at http://instagram.pixelunion.net"
+msgstr ""
+
+#: lib/settings/wp-settings-framework.php:121
+msgid "WPSF settings must be an array"
+msgstr ""
+
+#: lib/settings/wp-settings-framework.php:470
+msgid "Save Changes"
+msgstr ""

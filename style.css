@@ -1,0 +1,436 @@
+/* --------------------------------------------------------------------------------------------
+CONTENT
+1. CLEARFIX
+2. SOCIAL WIDGET
+3. TIMELINE POSTS
+4. TWITTER WIDGET
+4. POST TABS WIDGET
+6. CONTENT SLIDER
+7. INSTAGRAM
+--------------------------------------------------------------------------------------------
+[1.0 CLEARFIX]
+---------------------------------------------------------------------------------------------*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* --------------------------------------------------------------------------------------------
+[2.0 SOCIAL WIDGET]
+---------------------------------------------------------------------------------------------*/
+.widget_aw_social {
+	overflow:hidden;
+}
+
+.widget_aw_social a {
+	font-size:18px;
+	display:inline-block;
+	float: left;
+	text-align:center;
+	background:#555;
+	padding:5px 7px;
+	width:35px;
+	margin:0 7px 7px 0;
+	color:#fff !important;
+	text-decoration:none;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-border-radius: 2px;	
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+    -webkit-transition: background-color .3s ease-in-out;
+       -moz-transition: background-color .3s ease-in-out;
+         -o-transition: background-color .3s ease-in-out;
+	        transition: background-color .3s ease-in-out;
+}
+
+.widget_aw_social .brand_active a.aw-facebook {background:#3b5998}
+.widget_aw_social .brand_active a.aw-twitter {background:#55acee}
+.widget_aw_social .brand_active a.aw-google {background:#dc4e41}
+.widget_aw_social .brand_active a.aw-linkedin {background:#0077b5}
+.widget_aw_social .brand_active a.aw-instagram {background:#3f729b}
+.widget_aw_social .brand_active a.aw-pinterest {background:#bd081c}
+.widget_aw_social .brand_active a.aw-vimeo {background:#1ab7ea}
+.widget_aw_social .brand_active a.aw-youtube {background:#cd201f}
+.widget_aw_social .brand_active a.aw-flickr {background:#ff0084}
+.widget_aw_social .brand_active a.aw-vk {background:#45668e}
+.widget_aw_social .brand_active a.aw-odnoklassniki {background:#ed812b}
+.widget_aw_social .brand_active a.aw-soundcloud {background:#ff8800}
+.widget_aw_social .brand_active a.aw-dribbble {background:#8aba56}
+.widget_aw_social .brand_active a.aw-github {background:#4183c4}
+.widget_aw_social .brand_active a.aw-tumblr {background:#35465c}
+.widget_aw_social .brand_active a.aw-behance {background:#1769ff}
+.widget_aw_social .brand_active a.aw-deviantart {background:#05cc47}
+.widget_aw_social .brand_active a.aw-foursquare {background:#2d5be3}
+.widget_aw_social .brand_active a:hover {background:#555}
+
+.widget_aw_social .brand_hover a:hover.aw-facebook {background:#3b5998}
+.widget_aw_social .brand_hover a:hover.aw-twitter {background:#55acee}
+.widget_aw_social .brand_hover a:hover.aw-google {background:#dc4e41}
+.widget_aw_social .brand_hover a:hover.aw-linkedin {background:#0077b5}
+.widget_aw_social .brand_hover a:hover.aw-instagram {background:#3f729b}
+.widget_aw_social .brand_hover a:hover.aw-pinterest {background:#bd081c}
+.widget_aw_social .brand_hover a:hover.aw-vimeo {background:#1ab7ea}
+.widget_aw_social .brand_hover a:hover.aw-youtube {background:#cd201f}
+.widget_aw_social .brand_hover a:hover.aw-flickr {background:#ff0084}
+.widget_aw_social .brand_hover a:hover.aw-vk {background:#45668e}
+.widget_aw_social .brand_hover a:hover.aw-odnoklassniki {background:#ed812b}
+.widget_aw_social .brand_hover a:hover.aw-soundcloud {background:#ff8800}
+.widget_aw_social .brand_hover a:hover.aw-dribbble {background:#8aba56}
+.widget_aw_social .brand_hover a:hover.aw-github {background:#4183c4}
+.widget_aw_social .brand_hover a:hover.aw-tumblr {background:#35465c}
+.widget_aw_social .brand_hover a:hover.aw-behance {background:#1769ff}
+.widget_aw_social .brand_hover a:hover.aw-deviantart {background:#05cc47}
+.widget_aw_social .brand_hover a:hover.aw-foursquare {background:#2d5be3}
+
+/* --------------------------------------------------------------------------------------------
+[3.0 TIMELINE POSTS]
+---------------------------------------------------------------------------------------------*/
+.widget_aw_random_recent ul {
+	border-left:2px solid #555;
+	padding:0 0 0 25px;
+	margin:0 0 0 5px;
+	list-style:none;
+}
+
+.widget_aw_random_recent ul li {
+	position:relative;
+	margin:0 0 15px;
+	padding:0 0 15px;
+	border-bottom:1px dotted #000;
+	list-style:none;
+}
+
+.widget_aw_random_recent ul li:last-child {
+	margin:0;
+	padding:0;
+	border-bottom:none
+}
+
+.widget_aw_random_recent ul li img {
+	width:55px;
+	height:auto;
+}
+
+.widget_aw_random_recent .timeline-posttime {
+	position:absolute;
+	left:-31px;
+	top:-7px;
+	font-size:12px;
+}
+
+.widget_aw_random_recent .timeline-posttime .tooltiped .fa {
+	color:#999
+}
+
+.widget_aw_random_recent .entry-title {
+	font-size:14px;
+	font-weight:normal;
+	letter-spacing:0;
+	margin:0 0 7px;
+}
+
+.widget_aw_random_recent .aw_postmeta a{
+	color:#d9d9d9
+}
+
+.widget_aw_random_recent .aw_postmeta {
+	font-size:11px;
+	font-weight:normal;
+	letter-spacing:0
+}
+
+.widget_aw_random_recent .aw_postmeta  i {
+	display:inline-block;
+	margin-right:5px;
+}
+
+.widget_aw_random_recent .aw_postmeta .aw_author {
+	margin-right:20px
+}
+
+a.tooltiped span {
+	font-size: 10px;
+	position:absolute;
+	z-index: 999;
+	white-space:nowrap;
+	bottom:9999px;
+	left: 50%;
+	background:#000;
+	color:#e0e0e0;
+	padding:0px 7px;
+	opacity: 0;
+	-webkit-transition: opacity .3s ease-in-out;
+	   -moz-transition: opacity .3s ease-in-out;
+		 -o-transition: opacity .3s ease-in-out;
+			transition: opacity .3s ease-in-out;
+}       
+
+a.tooltiped span:before {
+	content: "";
+	display: block;
+	border-left: 6px solid #000;
+	border-top: 6px solid transparent;
+	position: absolute;
+	top: -6px;
+	left: 0px;
+}
+
+a.tooltiped:hover span {
+	opacity: 1;
+	bottom:-35px;
+}
+
+/* --------------------------------------------------------------------------------------------
+[4.0 TWITTER WIDGET]
+---------------------------------------------------------------------------------------------*/
+.aw_user_tweets li {
+	position:relative;
+	padding-left:40px;
+}
+
+.aw_user_tweets .fa {
+	position:absolute;
+	left:0px;
+	top:5px;
+}
+
+/* --------------------------------------------------------------------------------------------
+[5.0 POST TABS]
+---------------------------------------------------------------------------------------------*/
+.widget_aw_tabbed_posts .entry-title {
+	font-size:14px;
+	font-weight:normal;
+}
+
+.widget_aw_tabbed_posts input {display: none}
+
+.widget_aw_tabbed_posts label {
+	display: inline-block;
+	text-align: center;
+	width:33%;
+	float:left;
+	margin:3px 0 0;
+	padding:3px 0;
+	font-size:13px;
+	font-weight:bold
+}
+
+.widget_aw_tabbed_posts label:nth-child(2) {
+	width:34%;
+}
+
+.widget_aw_tabbed_posts label:hover {cursor: pointer}
+   
+.widget_aw_tabbed_posts .aw-tabs-content {
+	padding:20px;
+	clear:both;
+	border:1px solid #3a3a3a;
+}
+
+.widget_aw_tabbed_posts .aw-tabs-content > div {display: none}
+
+.widget_aw_tabbed_posts .aw-tabs-content img {
+	width:35px;
+	height:35px;
+	margin:4px 0 0 10px;
+	float:right;
+}
+
+.widget_aw_tabbed_posts input:checked + label {
+	padding:5px 0;
+	margin:0 0 -2px;
+	z-index:99;
+}
+
+#aw-tab1:checked ~ .aw-tabs-content .aw-content1,
+#aw-tab2:checked ~ .aw-tabs-content .aw-content2,
+#aw-tab3:checked ~ .aw-tabs-content .aw-content3 {
+	display: block;
+}
+
+.widget_aw_tabbed_posts ul li {
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+.widget_aw_tabbed_posts ul li:last-child {
+	padding-bottom:0;
+	margin-bottom:0;
+	border-bottom:none;
+}
+
+.widget_aw_tabbed_posts p {
+	margin:7px 0 0
+}
+
+.widget_aw_tabbed_posts .aw_postmeta {
+	font-size:11px;
+	margin:0;
+}
+
+.widget_aw_tabbed_posts  .aw_postmeta  i {
+	display:inline-block;
+	margin-right:5px;
+}
+
+.widget_aw_tabbed_posts .aw_postmeta time {
+	margin-right:20px
+}
+
+/* Light Tabs */
+.widget_aw_tabbed_posts .light_colors label {
+	background:#f5f5f5;
+	border:1px solid #ededed;
+	color:#222;
+}
+
+.widget_aw_tabbed_posts .light_colors input:checked + label {
+	background: #fff;
+	color: #222;
+	border-bottom:1px solid #fff;
+}
+
+.widget_aw_tabbed_posts .light_colors .aw-tabs-content {
+	background:#fff;
+	border:1px solid #ededed;
+	color:#222;
+}
+
+.widget_aw_tabbed_posts .light_colors ul li {
+	border-bottom:1px dotted #ededed;
+}
+
+.widget_aw_tabbed_posts .light_colors .aw_postmeta {
+	color:#bbb;
+}
+
+.widget_aw_tabbed_posts .light_colors .aw_postmeta a {
+	color:#aaa;
+}
+
+.widget_aw_tabbed_posts .light_colors .aw_postmeta a:hover {
+	color:#888;
+}
+
+/* Dark Tabs */
+.widget_aw_tabbed_posts .dark_colors label {
+	background:#555;
+	border:1px solid #3a3a3a;
+	color:#d9d9d9;
+}
+
+.widget_aw_tabbed_posts .dark_colors input:checked + label {
+	background: #2a2a2a;
+	color: #d9d9d9;
+	border-bottom:1px solid #2a2a2a;
+}
+
+.widget_aw_tabbed_posts .dark_colors .aw-tabs-content {
+	background:#2a2a2a;
+	border:1px solid #3a3a3a;
+	color:#d9d9d9;
+}
+
+.widget_aw_tabbed_posts .dark_colors ul li {
+	border-bottom:1px solid #1a1a1a;
+}
+
+.widget_aw_tabbed_posts .dark_colors .aw_postmeta {
+	color:#bbb;
+}
+
+.widget_aw_tabbed_posts .dark_colors a {
+	color:#ddd;
+}
+
+.widget_aw_tabbed_posts .dark_colors a:hover {
+	color:#fff;
+}
+
+/* --------------------------------------------------------------------------------------------
+[6.0 CONTENT SLIDER ]
+---------------------------------------------------------------------------------------------*/
+.widget .flexslider {
+	padding-top:25px !important
+}
+
+.widget .flexslider,
+.widget .flexslider ul li {margin:0;padding:0;border:none;background:transparent}
+.widget .flexslider ul li iframe,
+.widget .flexslider ul li .video-js {
+	max-width:100%;
+	height:auto;
+	border:none;
+	display:block
+}
+
+.widget .flexslider .aligncenter {
+	margin-bottom:10px
+}
+
+.widget .flexslider .entry-title {
+	font-size:14px;
+	font-weight:normal
+}
+
+.aw-direction-nav a {
+	top:0
+}
+
+.widget .aw-control-nav {
+	bottom:auto;
+	top:0;
+	left:0;
+	text-align:left;
+}
+
+.widget .aw-control-nav li {
+	margin: 0 5px 0 0
+}
+
+.widget .aw-custom-navigation {
+	display:inline;
+	position:absolute;
+	right:0;
+	top:-5px;
+	z-index:2;
+}
+
+.widget .aw-custom-navigation a {
+  display:inline-block;
+  float:right;
+  width:20px;
+  height:20px;
+  line-height:20px;
+  color:#d9d9d9;
+  text-align:center;
+  margin-left:5px;
+  background:#2a2a2a;
+  -webkit-border-radius:4px;
+	 -moz-border-radius:4px;
+		  border-radius:4px;
+}
+
+.widget .aw-custom-navigation a:hover {
+	color:#fff;
+	background:#000
+}
+
+/* --------------------------------------------------------------------------------------------
+[7.0 INSTAGRAM ]
+---------------------------------------------------------------------------------------------*/
+.widget .gabfire_instagram_thumb {
+	float:left;
+	max-width:150px;
+	margin:10px
+}
+
+.widget .gabfire_instagram_thumb img {
+	max-width:100%;
+}
